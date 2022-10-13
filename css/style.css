@@ -72,6 +72,7 @@ a {
   color: var(--color-primary);
 }
 .header-content {
+  max-width: var(--container-sm);
   padding-bottom: 161px;
 }
 .header-content__title {
@@ -81,12 +82,10 @@ a {
   margin: 0px;
   margin-bottom: 36px;
   color: var(--color-black);
-  max-width: var(--container-sm);
 }
 .header-content__description {
   line-height: var(--line-height-lg);
   color: var(--color-secondary);
-  max-width: var(--container-sm);
   margin-bottom: 64px;
 }
 .header-content__link {
@@ -158,6 +157,7 @@ a {
   width: 100%;
   height: 600px;
   margin-bottom: 97px;
+  border: 0;
 }
 .footer {
   background-color: var(--color-primary);
